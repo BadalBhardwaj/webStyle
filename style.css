@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.sec{
+    background-color: black;
+    justify-content:space-evenly;
+    background-image: url(/hairStyle/pics/main_Actor.jpg);
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px 600px;
+    background-position-y: 30px;
+    background-position-x: 90%;
+   
+}
+h1{
+   margin-left:5% ;
+    font-size: 60px;
+    font-style: italic;
+    margin: 30px;
+    color: aqua;
+    padding: 40px;
+}
+.pera{
+    font-size: 20px;
+    margin-left: 10%;
+    justify-items: auto;
+    padding: 20px;
+   display: flex;
+}
+.btn{
+   justify-content: center;
+   margin-left: 20%;
+   margin-top: 4%;
+   padding: 10px;
+}
+ button{
+    width: 3cm;
+    height: 1cm;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    background-color: burlywood;
+    margin: 8px;
+    
+}
+button:hover{
+    color: aliceblue;
+    background-color: darkslategray;
+    width: 3.2cm;
+    height: 1.1cm;
+}
+.pos{
+    text-align: center;
+}
+.actor{
+    display: flex;
+    justify-content: space-between;
+}
+.hot{
+    width: 18%;
+    height: 17%;
+    border: 4px solid white;
+    border-radius: 100%;
+    margin: 30px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.detail h3{
+    font-size: 50px;
+    color: darkgoldenrod;
+    text-align: left;
+    padding-left: 40px;
+}
+.detail h4{
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.521);
+    text-align: center;
+}
+h4:hover{
+    color: rgba(105, 25, 211, 0.685);
+    font-size: 35px;
+}
+.detail p{
+    margin: 20px;
+    word-spacing: 3px;
+}
+.content{
+    display: flex;
+    margin: 40px;
+}
+.cont1{
+    width: 50%;
+}
+.cont1 h3{
+    margin-left:7% ;
+    font-size: 30px;
+    font-style: italic;
+}
+.cont1 p{
+    margin-left:5% ;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;   
+}
+.btn1{
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 4%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1em;
+}
+.cont2{
+    width: 50%;
+}
+.box{
+    width: 80%;
+    height: 25%;
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: black;
+    font-size: 1.5em;
+    word-spacing: 4px;
+    padding: 15px;
+}
+.box h4{
+     margin-top: 25px;
+}
+.imgBox{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec img{
+    width:400px;
+    height:600px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.same{
+    width: 300px;
+    height: 300px;
+}
+.imgBox img{
+   top: 50px;
+   width: 280px;
+   height: 280px;
+}
+.imgBox img:hover{
+   width: 300px;
+   height: 300px;
+}
+.sec2{
+    display: flex;
+    margin-top: 70px;
+}
+.prt1{
+    width: 50%;
+    height: 50%;
+}
+.prt2{
+    width: 40%;
+    height: 50%;
+}
+.char{
+    width: 70%;
+    height: 100%;
+    margin-left: 80px;
+}
+.prt1 h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+.prt2{
+    text-align: right;
+}
+.prt2 h4{ 
+    font-size: 50px;
+    color: darkgoldenrod; 
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.prt2 p{
+    margin-left:5% ;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.last{
+    display: flex;
+}
+.lbox1{
+    width: 50%;
+    height: 50%;
+}
+.lbox2{
+    width: 50%;
+    height: 30%;
+}
+.lbox1 h3{
+    margin-left:7% ;
+    font-size: 30px;
+    font-style: italic;
+}
+.lbox1 p{
+    margin-left:5% ;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    word-spacing: 4px;
+}
+.cl{
+    background-color:  cornflowerblue;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 200px;
+    top: 200px;
+}
+.lbox2 img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 250px;
+    left: 150px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 5px;
+    color: black;
+}
+.end img{
+    width: 20px;
+    margin-left: 10px;
+}
